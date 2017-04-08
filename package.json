@@ -1,0 +1,55 @@
+{
+  "name": "slater",
+  "version": "1.0.0",
+  "description": "Editor component for contenteditable elements in a virtual DOM",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-portal": "^3.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "slate": "^0.19.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.27.3",
+    "inline-source-map": "^0.6.2",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devnullz/slater.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "reactjs",
+    "contenteditable",
+    "component",
+    "plugin"
+  ],
+  "author": "https://github.com/devnullz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/devnullz/slater/issues"
+  },
+  "homepage": "https://github.com/devnullz/slater#readme"
+}
